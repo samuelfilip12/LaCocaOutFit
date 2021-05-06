@@ -1,0 +1,30 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css);
+
+*{margin: 0; padding: 0; text-decoration: none; list-style: none;}
+
+body{
+    margin: auto;
+}
+header{
+    color: #866B66;
+    margin: 5   px;
+    padding: 5px;
+    border: 1px solid #000;
+    width:100%;
+    height: 19vh;
+    overflow: hidden;
+    position: relative;
+    background: #2980B9;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+}
+#logo{
+    height: 70px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 200px;
+} 
+#nav{width: 100%; height:52px; margin-left: 300px; }
+#nav ul{width:800px; height:52px; margin: auto; }
+#nav ul li{display:inline-block; }
+#nav ul li a{font:normal 20px verdana; padding: 0 12px; color: black; line-height: 0px; display:inline-block;}

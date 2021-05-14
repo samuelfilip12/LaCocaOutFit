@@ -10,12 +10,16 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <link href='https://css.gg/adidas.css' rel='stylesheet'>
+
     <body>
         <div class="container">
             <header> <div class="imgwepper">
-                <img id="logo" href="#" alt="CocaOutFit" src="img/logo1.png"/>             
+               <a href="index.html">
+                   <img id="logo" alt="CocaOutFit" src="img/logo1.png"/>             
+                </a>
             </div>
-                <nav id="nav">
+                <nav class="menu">
                     <ul>
                         <li><a href="#" >Home</a></li>
                         <li><a href="#" >Lançamentos</a></li>
@@ -23,12 +27,36 @@
                         <li><a href="#" >Masculino</a></li>
                         <li><a href="#" >Ofertas</a></li>
                     </ul>
-                </nav>    
+                </nav>
+                <spam class="target"></spam>    
             </header>
         </div>
-        <section>
-            <div>
-                <h1>Titulo Qualquer</h1>
+            <div id="container">
+                
+                <h1 class="onde-todos">ONDE TODOS OS ESTILOS SE ENCONTRAM</h1>
+                <div class="marcas">
+                    <h1>Navegue Pelas Marcas</h1>
+                    <img  class="nike" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyLjAxMyA1MTIuMDEzIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIuMDEzIDUxMi4wMTM7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNMjg3Ljc1NywyMjUuNzk0bC0zMS44MDgsOC4zNTJsLTg4LjI1NiwyMy4xMDRjLTMxLjE2OCw3LjcxMi01OC40MzIsMTcuOTg0LTg0LjcwNCw4Ljk5Mg0KCQkJYy0zNS43MTItMTUuNDI0LTM1LjA3Mi01NS41NTItOC40NDgtOTguMjRDMjcuNDY5LDIwNi44NS01Ny4yMzUsMzMxLjA3NCw1Ny4zMjUsMzQzLjYxOGMxNC41OTIsMS45Miw0MC41NzYtMy4yLDY4LjgtMTUuMDcyDQoJCQlsMTI5LjgyNC01My4yOGwyNTYuMDY0LTEwNC43MDRMMjg3Ljc1NywyMjUuNzk0eiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K" />
+                    <img  class= "adidas" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwb2x5Z29uIHBvaW50cz0iNDI4LjM4NCwyNjMuMjMyIDMzNS45MzYsMTA5LjQ3MiAyOTcuODU2LDEzMi4zODQgMjM3LjM3NiwxNjguNzM2IDI5Ny44NTYsMjY5LjQ0IDM3Ny42OTYsNDAyLjUyOCANCgkJCTQyOC4zODQsNDAyLjUyOCA1MTIsNDAyLjUyOCAJCSIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cG9seWdvbiBwb2ludHM9IjI5Ny44NTYsMzQ3Ljc0NCAyMTcuMzEyLDIxMy43MjggMTIxLjg4OCwyNzEuMTY4IDExOC42MjQsMjczLjA4OCAxMjEuODg4LDI3OC40OTYgMTk2LjQxNiw0MDIuNTI4IA0KCQkJMjk3Ljg1Niw0MDIuNTI4IDMzMC42MjQsNDAyLjUyOCAJCSIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cG9seWdvbiBwb2ludHM9IjEyMS44ODgsMzU2LjcwNCA5OC42NTYsMzE4LjExMiAwLDM3Ny4zNzYgMTUuMDcyLDQwMi41MjggMTIxLjg4OCw0MDIuNTI4IDE0OS4zNzYsNDAyLjUyOCAJCSIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K" />
+                 </div>
+                <div id="primeiro-quadrado">
+                    <div id="container-texto1">
+                        <h1>Junte-se a Nós</h1>
+                            <p>
+                                Lorem ipsum quisque ut id feugiat sed posuere dui urna, ut sagittis pellentesque morbi tristique consequat accumsan. orci nulla aliquam senectus erat mollis aliquam quis ultrices, feugiat bibendum morbi proin imperdiet quisque duis aliquet eget. gravida placerat ante hac id non fusce. egestas augue ad vitae ante rhoncus pharetra curabitur. ac amet luctus duis tempor tristique, elementum phasellus vestibulum urna vehicula velit. tellus ut porta mauris habitasse laoreet dapibus est sagittis pulvinar.
+                            </p>
+                            <button class="botao">Cadastre-se</button>
+                    </div> 
+                </div>  
+            <div class="segundo-quadrado">
+                <img id="primeira-imagem" src="img/primeira-imagem1.jpg">
+                <p>
+                    Lorem ipsum quisque ut id feugiat sed posuere dui urna, ut sagittis pellentesque morbi tristique consequat accumsan. orci nulla aliquam senectus erat mollis aliquam quis ultrices, feugiat bibendum morbi proin imperdiet quisque duis is facilisis ac platea, semper tortor per libero neque augue ut primis. Tortor elit nam sociosqu libero enim lectus tempor, pharetra varius eget inceptos hendrerit rhoncus. tellus ad gravida facilisis eleifend nibh lectus imperdiet vulputate semper tellus suscipit adipiscing neque, scelerisque suspendisse taciti lobortis.
+                </p>
+            </div>
+            <div class="terceiro-quadrado">
+                <img src="" alt="">
+            </div>
             </div>
         </section>
     </body>

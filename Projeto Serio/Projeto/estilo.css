@@ -1,30 +1,163 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css);
 
-*{margin: 0; padding: 0; text-decoration: none; list-style: none;}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&family=Oswald:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@import url('https://css.gg/adidas.css');
+
+*{
+    margin: 0; 
+    padding: 0; 
+    text-decoration: none; 
+    list-style: none;
+}
 
 body{
-    margin: auto;
+    width:100%;
+    margin: 0;
+    background: #DCDCDC;
 }
+
 header{
     color: #866B66;
-    margin: 5   px;
-    padding: 5px;
-    border: 1px solid #000;
-    width:100%;
-    height: 19vh;
-    overflow: hidden;
-    position: relative;
-    background: #2980B9;
-    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
-    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    margin: 5px;
+    padding: 5px;   
+    width:99%;
+    height:100px;
+    background: #777d81;
 }
 #logo{
     height: 70px;
     width: 150px;
-    margin-top: 20px;
-    margin-left: 200px;
+    position: absolute;
+    left: 18%;
+	top: 5%;
 } 
-#nav{width: 100%; height:52px; margin-left: 300px; }
-#nav ul{width:800px; height:52px; margin: auto; }
-#nav ul li{display:inline-block; }
-#nav ul li a{font:normal 20px verdana; padding: 0 12px; color: black; line-height: 0px; display:inline-block;}
+/* Formatação dos menus */
+.menu{
+    display: flex;
+    position: relative;
+    height:52px; 
+    margin-left: 390px;
+    margin-top: 60px; 
+}
+    .menu ul{
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        padding: 0;
+        margin: auto; 
+        }
+            .menu ul li{
+                display:inline-block; 
+            }
+                .menu a{
+                    font: normal 20px 'Oswald', sans-serif  ; 
+                    padding: 0 12px; 
+                    color: black; 
+                    line-height: 0px; 
+                    display:inline-block;
+                } 
+
+/* FIM DE MENU */  
+
+
+
+.marcas{
+    position: absolute;
+    left: 54%;
+    right: 21%;
+    margin-top: 45px;
+    display: inline-block;
+}
+.nike{
+    border: solid 1px;
+    border-radius: 50%;
+    max-width: 60px;
+    max-height: 200px;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyLjAxMyA1MTIuMDEzIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIuMDEzIDUxMi4wMTM7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIHN0eWxlPSJmaWxsOiMyNjMyMzg7IiBkPSJNMjU1Ljk0OSwyMzQuMTQ2bC04OC4yNTYsMjMuMTA0Yy0zMS4xNjgsNy43MTItNTguNDMyLDE3Ljk4NC04NC43MDQsOC45OTINCgljLTM1LjcxMi0xNS40MjQtMzUuMDcyLTU1LjU1Mi04LjQ0OC05OC4yNEMyNy40NjksMjA2Ljg1LTU3LjIzNSwzMzEuMDc0LDU3LjMyNSwzNDMuNjE4YzE0LjU5MiwxLjkyLDQwLjU3Ni0zLjIsNjguOC0xNS4wNzINCglsMTI5LjgyNC01My4yOGwyNTYuMDY0LTEwNC43MDRsLTIyNC4yNTYsNTUuMjMyTDI1NS45NDksMjM0LjE0NkwyNTUuOTQ5LDIzNC4xNDZ6Ii8+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==)
+}
+.adidas{
+    border: solid 1px;
+    border-radius: 50%;
+    max-width: 60px;
+    max-height: 200px;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwb2x5Z29uIHBvaW50cz0iNDI4LjM4NCwyNjMuMjMyIDMzNS45MzYsMTA5LjQ3MiAyOTcuODU2LDEzMi4zODQgMjM3LjM3NiwxNjguNzM2IDI5Ny44NTYsMjY5LjQ0IDM3Ny42OTYsNDAyLjUyOCANCgkJCTQyOC4zODQsNDAyLjUyOCA1MTIsNDAyLjUyOCAJCSIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cG9seWdvbiBwb2ludHM9IjI5Ny44NTYsMzQ3Ljc0NCAyMTcuMzEyLDIxMy43MjggMTIxLjg4OCwyNzEuMTY4IDExOC42MjQsMjczLjA4OCAxMjEuODg4LDI3OC40OTYgMTk2LjQxNiw0MDIuNTI4IA0KCQkJMjk3Ljg1Niw0MDIuNTI4IDMzMC42MjQsNDAyLjUyOCAJCSIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cG9seWdvbiBwb2ludHM9IjEyMS44ODgsMzU2LjcwNCA5OC42NTYsMzE4LjExMiAwLDM3Ny4zNzYgMTUuMDcyLDQwMi41MjggMTIxLjg4OCw0MDIuNTI4IDE0OS4zNzYsNDAyLjUyOCAJCSIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K)
+    }
+/* Começo do Primeiro Conteudo*/
+#container{
+    width: 1000px;
+    height: 1000px;
+    display: inline-block;
+    margin:10px 135px;
+}
+#container h1{
+    text-align: center;
+    margin-top: 12px;
+    font-family:'Bebas Neue', cursive;
+    
+} 
+#primeiro-quadrado{
+    border: solid 1px black;
+    border-radius: 01%;
+    height: 450px;
+    width: 340px;
+    margin: 10px 90px;
+}
+    #container-texto1 h1{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #container-texto1 p{
+        text-align: justify;
+        margin: 20px 20px;
+        -border: solid 1px black;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .botao{
+      width: 220px;
+      height: 40px;
+      border: none;
+      color: #fff;
+      background: #283048;        
+      background: -webkit-linear-gradient(to right, #859398, #283048);  
+      background: linear-gradient(to right, #859398, #283048); 
+      border-radius: 3px;
+      margin: 11px 60px;
+      font-family: 'Ubuntu', sans-serif;
+      letter-spacing: 2px;  
+    }
+/*FIM PRIMEIRO Conteudo*/
+
+/* Começo segundo Conteudo*/ 
+.segundo-quadrado{
+    border: solid 1px black;
+    border-radius: 01%;
+    height: 600px;
+    width: 450px;
+    position:relative;
+    float: right;
+    margin: -300px  50px;
+}   
+    #primeira-imagem{
+        margin: 10px 18px;
+        width: 415px;
+        height: 310px;
+    }
+    .segundo-quadrado p{
+        text-align: justify;
+        margin: 10px 25px;  
+        font-family: 'Montserrat', sans-serif;   
+    }
+
+/* FIM SEGUNDA QUADRADA*/
+#terceiro-quadrado{    
+    border: solid 1px black;
+    border-radius: 01%;
+    height: 600px;
+    width: 450px;
+    position:relative;
+    float: left;
+    margin: -300px  50px;
+}
